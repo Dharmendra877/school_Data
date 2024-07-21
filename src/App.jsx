@@ -6,7 +6,7 @@ import AddSchool from "./conponents/schoolForm/AddSchool";
 import HomePage from "./pages/HomePage";
 import SchoolPage from "./pages/SchoolPage";
 import ShowSchools from "./pages/ShowSchools";
-//testing purpus
+
 function App() {
   return (
     <Router>
