@@ -1,0 +1,1 @@
+ //export const BASE_API = "https://669b4df3276e45187d35146c.mockapi.io/api/new/student";

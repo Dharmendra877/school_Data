@@ -1,0 +1,39 @@
+
+.school-list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.school-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  transition: transform 0.2s;
+}
+
+.school-card:hover {
+  transform: scale(1.05);
+}
+
+.school-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.school-info {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.school-info h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.school-info p {
+  margin: 0.25rem 0;
+}
