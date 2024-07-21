@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { HashRouter, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
 import Navigation from "./conponents/navigation/Navigation";
 import AddSchool from "./conponents/schoolForm/AddSchool";
@@ -9,7 +9,7 @@ import ShowSchools from "./pages/ShowSchools";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Navigation />
       <div className="App">
         <Routes>
@@ -19,7 +19,7 @@ function App() {
           {/* <Route path="/SchoolPage" element={<SchoolPage />} /> */}
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
